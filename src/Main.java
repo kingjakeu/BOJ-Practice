@@ -17,21 +17,24 @@ public class Main {
             int from = cs.nextInt();
             int to = cs.nextInt();
             map[from-1][to-1] = 1;
+            map[to-1][from-1] = 1;
         }
         Queue<Integer> que = new LinkedList<>();
         que.offer(0);
-
+        map[0][0] = 1;
         while(!que.isEmpty()){
             int k = que.poll();
             //print(cache);
+            cache[k] = 1;
             for(int i=0; i<n; i++){
                 if(map[k][i] == 1){
-                    que.offer(i);
-                    cache[i] = 1;
+                	if(cache[i] == 0) {
+                        que.offer(i);
+                	}
                 }
             }
         }
-        for(int i=0; i<n; i++) {
+        for(int i=1; i<n; i++) {
         	answer += cache[i];
         }
         System.out.println(answer);
