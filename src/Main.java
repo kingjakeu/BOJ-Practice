@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -9,35 +11,54 @@ public class Main {
     public static void main(String[] args){
         CustomScanner cs = new CustomScanner();
         int n = cs.nextInt();
-        int t = cs.nextInt();
-        int answer = 0;
-        int[] cache = new int[n];
         int[][] map = new int[n][n];
-        for(int i=0; i<t; i++){
-            int from = cs.nextInt();
-            int to = cs.nextInt();
-            map[from-1][to-1] = 1;
-            map[to-1][from-1] = 1;
+        int[][] off = {{0,1},{0,-1},{1,0},{-1,0}};
+        int count = 1;
+        for(int i=0; i<n; i++) {
+        	String t = cs.readLine();
+        	String[] ts = t.split("");
+        	for(int j=0; j<n; j++) {
+        		map[i][j] = Integer.parseInt(ts[j]);
+        	}
         }
-        Queue<Integer> que = new LinkedList<>();
-        que.offer(0);
-        map[0][0] = 1;
-        while(!que.isEmpty()){
-            int k = que.poll();
-            //print(cache);
-            cache[k] = 1;
-            for(int i=0; i<n; i++){
-                if(map[k][i] == 1){
-                	if(cache[i] == 0) {
-                        que.offer(i);
-                	}
-                }
-            }
+        Queue<DOT> que = new LinkedList<>();
+        ArrayList<Integer> ans = new ArrayList<>();
+        
+        for(int i=0; i<n; i++) {
+        	for(int j=0; j<n; j++) {
+        		if(map[i][j] == 1) {
+        			que.add(new DOT(i,j));
+        			count++;
+        			map[i][j] = count;
+        			ans.add(0);
+        			while(!que.isEmpty()) {
+        				DOT d = que.poll();
+        				ans.set(count-2, ans.get(count-2)+1);
+        				
+        				for(int k=0; k<4; k++){
+        					int x = d.x;
+                        	int y = d.y;
+                        	x += off[k][1];
+                            y += off[k][0];
+                            if(y>=0 && y< n && x>=0 &&x<n){
+                                if(map[y][x] == 1){
+                                    map[y][x] = map[d.y][d.x];
+                                    DOT t = new DOT(y,x);
+                                    que.offer(t);
+                                }
+                            }
+        				}
+        			}
+        		}
+        	}
         }
-        for(int i=1; i<n; i++) {
-        	answer += cache[i];
+
+        System.out.println(count-1);
+        Collections.sort(ans);
+        for(int q : ans) {
+        	System.out.println(q);
         }
-        System.out.println(answer);
+        
     }
     static class CustomScanner{
         static BufferedReader br;
@@ -68,5 +89,13 @@ public class Main {
             return Integer.parseInt(next());
         }
     }
+}
+class DOT{
+	int x; 
+	int y;
+	DOT(int _y, int _x){
+		y = _y;
+		x = _x;
+	}
 }
 

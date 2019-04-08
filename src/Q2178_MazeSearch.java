@@ -77,11 +77,11 @@ public class Q2178_MazeSearch {
         }
     }
 }
-class DOT{
-    int x;
-    int y;
-    DOT(int _x, int _y){
-        x = _x;
-        y = _y;
-    }
-}
+//class DOT{
+//    int x;
+//    int y;
+//    DOT(int _x, int _y){
+//        x = _x;
+//        y = _y;
+//    }
+//}
