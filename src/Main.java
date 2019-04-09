@@ -40,17 +40,17 @@ public class Main {
     			}
     		}
     	}
+    	B0011
+    	B0000
+    	B0000
+    	11000
+    	EEE00
     	
-    	Arrays.sort(start);
-    	Arrays.sort(end);
-    	for(int i=0; i<3; i++) {
-    		System.out.print(start[i][0]+" "+start[i][1]);
-        	System.out.println();
-    	}
-    	for(int i=0; i<3; i++) {
-    		System.out.print(end[i][0]+" "+end[i][1]);
-        	System.out.println();
-    	}
+    	B2311
+    	22400
+    	34450
+    	11450
+    	EEE00
     	
     }
     static boolean isValid() {
