@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -8,85 +9,70 @@ import java.util.StringTokenizer;
 import java.io.IOException;
 
 public class Main {
+	static int[][] start = new int[3][2];
+	static int[][] end = new int[3][2];
+	static int[][] map;
+	static int[][] offset = {{1,0},{-1,0},{0,1},{0,-1}};
     public static void main(String[] args){
     	CustomScanner sc = new CustomScanner();
-    	int n = sc.nextInt();
-    	int[][] map = new int[n][n];
-    	int max = 1;
-    	int maxH = 0;
-    	for(int i=0; i<n; i++) {
-    		for(int j=0; j<n; j++) {
-    			map[i][j] = sc.nextInt();
-    			maxH = Math.max(maxH, map[i][j]);
-    		}
-    	}
+    	String tmp  = sc.readLine();
+    	int n = Integer.parseInt(tmp);
+    	map = new int[n][n];
     	
-    	for(int th=1; th<=maxH; th++) {
-    		int count = 1;
-    		int[][] cache = new int[n][n];
-    		Queue<DOT> que = new LinkedList<>();
-    		//인접하다 할수 있는 오프셋 상하좌우 
-    		int[][] off = {{1,0},{-1,0},{0,1},{0,-1}};
-    		
-    		
-    		for(int i=0; i<n; i++) {
-    			for(int j=0; j<n; j++) {
-    				// 방문한적없고 침수 높이보다 높으면 
-    				if(cache[i][j] == 0 && map[i][j]>th) {
-       	    			que.add(new DOT(i,j));
-       	    			cache[i][j] = count++;
-       	    			// 넣고 다음 카운트 증가
-       	    			
-        	    		while(!que.isEmpty()) {
-        	    			DOT d = que.poll();
-        	    			for(int k=0; k<4; k++) {
-        	    				int nx = d.x+off[k][0];
-        	    				int ny = d.y+off[k][1];
-        	    				if(nx>=0 && nx<n && ny>=0 && ny<n) {
-        	    					//인접한 곳으로 기기
-        	    					if(cache[ny][nx] == 0 && map[ny][nx] >th) {
-        	    						cache[ny][nx] = cache[d.y][d.x];
-        	    						que.add(new DOT(ny,nx));
-        	    					}
-        	    				}
-        	    			}
-        	    		}
-    				}
-    	    		
+    	
+    	
+    	int s = 0;
+    	int e = 0;
+    	
+    	for(int i=0; i<n; i++) {
+    		tmp = sc.readLine();
+    		for(int j=0; j<n; j++) {
+    			map[i][j] = tmp.charAt(j);
+    			if(map[i][j] == 'B') {
+    				start[s][0] = i;
+    				start[s][1] = j;
+    				s++;
+    			}
+    			if(map[i][j] == 'E') {
+    				end[e][0] = i;
+    				end[e][1] = j;
+    				e++;
     			}
     		}
-    		max = Math.max(max, --count);
-    		
     	}
-
-		System.out.println(max);
+    	
+    	Arrays.sort(start);
+    	Arrays.sort(end);
+    	for(int i=0; i<3; i++) {
+    		System.out.print(start[i][0]+" "+start[i][1]);
+        	System.out.println();
+    	}
+    	for(int i=0; i<3; i++) {
+    		System.out.print(end[i][0]+" "+end[i][1]);
+        	System.out.println();
+    	}
+    	
     }
-    
+    static boolean isValid() {
+    	boolean b = false;
+    	for(int i=0; i<3; i++) {
+    		for(int j=0; j<4; j++) {
+    			
+    		}
+    	}
+    	
+    	return b;
+    }
     static class CustomScanner{
     	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    	static StringTokenizer st = new StringTokenizer("");
+    	static StringBuilder sb = new StringBuilder("");
     	
-    	static String next() {
-    		while(!st.hasMoreTokens()) {
-        		try {
-        			st = new StringTokenizer(br.readLine());
-        		}catch(IOException e) {
-        			
-        		}
+    	static String readLine() {
+    		try {
+    			return br.readLine();
+    		}catch(IOException e) {
+    			return null;
     		}
-    		return st.nextToken();
-    	}
-    	static int nextInt() {
-    		return Integer.parseInt(next());
     	}
     }
-}
-class DOT{
-	int x;
-	int y;
-	DOT(int _y, int _x){
-		y = _y;
-		x = _x;
-	}
-	
 }
