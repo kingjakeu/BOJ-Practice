@@ -5,8 +5,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-import Main.CustomScanner;
-
 public class Q16236_BabyShark {
 static int[][] map;
 	
@@ -101,19 +99,19 @@ static int[][] map;
 		}
 	}
 }
-class DOT{
-	int x;
-	int y;
-	int r;
-	
-	DOT(int _y, int _x){
-		y = _y;
-		x = _x;
-	}
-	DOT(int _y, int _x, int _r){
-		y = _y;
-		x = _x;
-		r = _r;
-	}
-	
-}
+//class DOT{
+//	int x;
+//	int y;
+//	int r;
+//	
+//	DOT(int _y, int _x){
+//		y = _y;
+//		x = _x;
+//	}
+//	DOT(int _y, int _x, int _r){
+//		y = _y;
+//		x = _x;
+//		r = _r;
+//	}
+//	
+//}
