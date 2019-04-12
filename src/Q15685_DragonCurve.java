@@ -1,17 +1,12 @@
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
 import java.util.StringTokenizer;
-import java.io.IOException;
 
-public class Main {
+import Main.CustomScanner;
+
+public class Q15685_DragonCurve {
 	static boolean map[][] = new boolean[101][101];
 	static int[][] offset = {{1,0},{0,-1},{-1,0},{0,1}};
 	public static void main(String[] args) {
