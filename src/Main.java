@@ -12,83 +12,71 @@ import java.util.StringTokenizer;
 import java.io.IOException;
 
 public class Main {
-	static boolean map[][] = new boolean[101][101];
-	static int[][] offset = {{1,0},{0,-1},{-1,0},{0,1}};
+
 	public static void main(String[] args) {
 		CustomScanner sc = new CustomScanner();
-		int n = sc.nextInt();
-		for(int c=0; c<n; c++) {
-			int x = sc.nextInt();
-			int y = sc.nextInt();
-			int d = sc.nextInt();
-			int g = sc.nextInt();
-			DOT idx  = new DOT(x,y);
-			ArrayList<Integer> dir = new ArrayList<>();
-			dir.add(d);
-
-			map[idx.y][idx.x] = true; 
-			idx.x += offset[d][0];
-			idx.y += offset[d][1];
-			map[idx.y][idx.x] = true; 
-			int off = 0;
-			for(int i=0; i<g; i++) {
-				int leng = dir.size();
-				for(int j = 0; j<leng; j++) {
-					off = dir.get(j);
-					//System.out.println(idx.x+" "+idx.y+" "+off);
-					map[idx.y][idx.x] = true;
-					if(off == 3) {
-						off = 0;
-					}else {
-						off++;
-					}
-					idx.x += offset[off][0];
-					idx.y += offset[off][1];
-					dir.add(0, off);
-					leng++;
-					j++;
-				}
-			}
-			map[idx.y][idx.x] = true;
-			//System.out.println(idx.x+" "+idx.y+" "+off);
-		}
-		int count = 0;
-		for(int i=0; i<100; i++) {
-			for(int j=0; j<100; j++) {
-				if(map[j][i]) {
-					//System.out.println(i+ " "+j);
-					if(map[j+1][i]&&map[j][i+1]&&map[j+1][i+1]) {
-						count++;
-					}
-				}
-			}
-		}
-		System.out.println(count);
-	}
-	static class CustomScanner{
-		static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		static StringTokenizer st = new StringTokenizer("");
 		
-		static String next() {
-			while(!st.hasMoreTokens()) {
-				try {
-					st = new StringTokenizer(br.readLine());
-				}catch(IOException e) {
-					
+		int r = sc.nextInt();
+		int c = sc.nextInt();
+		char[][] map = new char[r][c];
+		int[][] offset = {{1,0},{-1,0},{0,1},{0,-1}};
+		
+		DOT start, end;
+		Queue<DOT> que = new LinkedList<>();
+		
+		for(int i=0; i<r; i++) {
+			String stmp = sc.readLine();
+			for(int j=0; j<c; j++) {
+				map[i][j] = stmp.charAt(j);
+				if(map[i][j] == 'M') {
+					start = new DOT(i,j);
+					que.add(start);
+				}
+				if(map[i][j] =='Z') {
+					end = new DOT(i,j);
 				}
 			}
-			return st.nextToken();
 		}
-		static int nextInt() {
-			return Integer.parseInt(next());
+		
+		
+		
+		while(!que.isEmpty()) {
+			
 		}
+		
 	}
+	
+	 static class CustomScanner{
+		 static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		 static StringTokenizer st = new StringTokenizer("");
+		 
+		 static String readLine() {
+			 try {
+				 return br.readLine();
+			 }catch(IOException e) {
+				 return null;
+			 }
+		 }
+		 static String next() {
+			 while(!st.hasMoreTokens()) {
+				 try {
+					 st = new StringTokenizer(br.readLine());
+				 }catch(IOException e) {
+					 
+				 }
+			 }
+			 return st.nextToken();
+		 }
+		 static int nextInt() {
+			 return Integer.parseInt(next());
+		 }
+	 }
 }
 class DOT{
-	int x;
 	int y;
-	DOT(int _x, int _y){
-		x = _x;
-		y = _y;
+	int x;
+	DOT(int _y, int _x){
+		y= _y;
+		x=_x;
 	}
 }
