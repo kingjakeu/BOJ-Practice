@@ -1,11 +1,7 @@
 
 public class PGMR_LVL3_NExpression {
-	public static void main(String[] args) {
-		Solution s = new Solution();
-		System.out.println(s.solution(5,12));
-	}
 }
-class Solution {
+class PGMR_LVL3_NExpression_Solution {
 	static int answer = -1;
 	static int[] moreN = new int[9];
 	
