@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class PGMR_LVL3_Immigrant {
 
 }
-class Solution {
+class PGMR_LVL3_Immigrant_Solution {
     public long solution(int n, int[] times) {
         long answer = 0;
         int leng = times.length;
