@@ -1,3 +1,3 @@
-# BOJ-Practice
+# Daily Coding
 
 ### 알고리즘 풀이
