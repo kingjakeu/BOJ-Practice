@@ -1,12 +1,8 @@
 package LEETCODE;
 
 public class Q12_IntegertoRoman {
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        System.out.println(s.intToRoman(58));
-    }
 }
-class Solution {
+class Q12_IntegertoRoman_Solution {
     public String intToRoman(int num) {
         String[] symbol = {"I", "V", "X", "L", "C", "D", "M"};
         int[] value = {1, 5, 10, 50, 100, 500, 1000};
