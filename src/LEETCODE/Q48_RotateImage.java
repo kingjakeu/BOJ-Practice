@@ -2,7 +2,7 @@ package LEETCODE;
 
 public class Q48_RotateImage  {
 }
-class Solution {
+class Q48_RotateImage_Solution {
     public void rotate(int[][] matrix) {
         int leng = matrix.length;
         int[][] answer = new int[leng][leng];
