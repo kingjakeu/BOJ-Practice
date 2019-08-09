@@ -10,7 +10,7 @@ class ListNode {
      ListNode next;
      ListNode(int x) { val = x; }
 }
-class Solution {
+class Q23_MergekSortedLists_Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode ans = new ListNode(Integer.MIN_VALUE);
         int leng = lists.length;
