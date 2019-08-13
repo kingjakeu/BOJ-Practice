@@ -1,48 +1,48 @@
 package LEETCODE;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class Q30_SubstringwithConcatenationofAllWords {
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        String[] words = {"foo","bar"};
-        s.findSubstring("barfoothefoobarman", words);
-    }
 }
-class Solution {
+class Q30_SubstringwithConcatenationofAllWords_Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         LinkedList<Integer> answer = new LinkedList<>();
         int wordLeng = words.length;
-        if(wordLeng >0){
-            int leng = s.length();
-            int by = words[0].length();
+        int leng = s.length();
 
-            for(int i=0; i<leng; i++){
-                boolean[] check = new boolean[wordLeng];
+        if(wordLeng>0 && leng >0){
+            int by = words[0].length();
+            int max = wordLeng*by;
+            HashMap<String, Integer> map = new HashMap<>();
+            for(String word : words) {
+                map.put(word, map.getOrDefault(word, 0)+1);
+            }
+            for (int i = 0; i < leng; i++) {
                 int idx = i;
-                for (int j = 0; j < wordLeng; j++) {
-                    if(!check[j]){
-                        if(idx+by <leng){
-                            if(s.substring(idx,idx+by).equals(words[j])){
-                                System.out.println(s.substring(idx,idx+by)+" "+words[j]);
-                                check[j] = true;
-                                idx += by;
-                                j = -1;
+                boolean check = false;
+                HashMap<String, Integer> tmpMap = new HashMap<>(map);
+
+                for(int j = 0; j<wordLeng; j++){
+                    if(idx+by<=leng){
+                        String tmpStr = s.substring(idx, idx+by);
+                        if(tmpMap.containsKey(tmpStr)){
+                            if(tmpMap.get(tmpStr) > 0) {
+                                tmpMap.put(tmpStr, tmpMap.get(tmpStr)-1);
+                                idx = idx+by;
+                            }else{
+                                check = true;
+                                break;
                             }
+                        }else {
+                            check = true;
+                            break;
                         }
-                    }
-                }
-                boolean nop = false;
-                for (boolean b : check){
-                    if(!b){
-                        nop = true;
+                    }else{
+                        check = true;
                         break;
                     }
                 }
-                if(!nop){
+                if(!check){
                     answer.add(i);
                 }
             }
