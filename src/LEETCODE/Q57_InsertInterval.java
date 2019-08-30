@@ -27,16 +27,13 @@ class Q57_InsertInterval_Solution {
 
         int size = tempAnswer.size();
         answer = new int[size][2];
-        tempAnswer.sort(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                if(o1[0]<o2[0]){
-                    return -1;
-                }else if(o1[0]>o2[0]){
-                    return 1;
-                }
-                return 0;
+        tempAnswer.sort((o1, o2) -> {
+            if(o1[0]<o2[0]){
+                return -1;
+            }else if(o1[0]>o2[0]){
+                return 1;
             }
+            return 0;
         });
         int i = 0;
         for(int[] tmp : tempAnswer){
