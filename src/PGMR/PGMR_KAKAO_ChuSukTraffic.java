@@ -7,7 +7,7 @@ import java.time.temporal.TemporalAmount;
 
 public class PGMR_KAKAO_ChuSukTraffic {
 }
-class Solution {
+class PGMR_KAKAO_ChuSukTraffic_Solution {
     public int solution(String[] lines) {
         int answer = 1;
         int length = lines.length;
