@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q93_RestoreIPAddresses {
 }
-class Solution {
+class Q93_RestoreIPAddresses_Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> answer = new LinkedList<>();
         backTrack(s,0,0,new StringBuilder(),s.length(),answer);
