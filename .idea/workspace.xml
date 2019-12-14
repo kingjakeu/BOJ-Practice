@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a82e61bd-ccc4-4ba2-b344-5ce6865627f1" name="Default" comment="Solve leetcode #79">
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q1018_ChessPan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q11047_CoinZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q11399_ATM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q1436_DirectorShom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q1516_GameDevelopment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q15685_DragonCurve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q16234_PopulationMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q16236_BabyShark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q1726_Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q1766_QuestionBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2178_MazeSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2231_SeprateSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2252_LineUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2468_SafeArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2606_Virus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2667_DanjiNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q2789_BlackJack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q3190_BAM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q3665_FinalRank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q7568_DungChi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q7569_Tomato2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BAEKJOON/Q7576_Tomato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q101_SymmetricTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q10_RegularExpressionMatching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q11_ContainerWithMostWater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q12_IntegertoRoman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q15_3Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q16_3SumClosest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q17_LetterCombinationsofaPhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q18_4Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q19_RemoveNthNodeFromEndofList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q22_GenerateParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q23_MergekSortedLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q24_SwapNodesinPairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q25_ReverseNodesinkGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q28_ImplementstrStr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q29_DivideTwoIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q2_AddTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q30_SubstringwithConcatenationofAllWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q32_LongestValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q33_SearchinRotatedSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q34_FindFirstandLastPositionofElementinSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q36_ValidSudoku.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q38_CountandSay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q39_CombinationSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q3_LengthOfLongestSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q40_CombinationSumII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q42_TrappingRainWater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q45_JumpGameII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q46_Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q47_PermutationsII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q48_RotateImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q49_GroupAnagrams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q51_NQueen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q54_SpiralMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q55_JumpGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q56_MergeIntervals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q57_InsertInterval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q59_SpiralMatrixII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q5_LongestPalindromicSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q61_RotateList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q62_UniquePath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q63_UniquePathsII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q64_MinimumPathSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q65_ValidNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q66_PlusOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q6_ZigZagConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q70_ClimbingStairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q75_SortColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q77_Combination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q79_WordSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q804_UniqueMorseCodeWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q83_RemoveDuplicatesfromSortedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q8_StringtoInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LEETCODE/Q93_RestoreIPAddresses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_IslandConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_CACHE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_ChuSukTraffic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_FAILRATE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_FRIEND4BLOCK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NEWSCLUSTER.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_OPENCHAT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_StringCompression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_BestAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_BestSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_Budget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_Camping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_ChangeMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_DoublePrioQue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_GoingToSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_Immigrant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_KakaoColorBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_LongJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_MostFarNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_NExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_NightWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_NumGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_Ranking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_Scale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_TravelPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_WalkersHeaven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_WayToLineup.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ListNode</find>
+      <find>system</find>
+      <find>OutputStream</find>
+      <find>token</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q66_PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q70_ClimbingStairs.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q83_RemoveDuplicatesfromSortedList.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q5_LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q12_IntegertoRoman.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q24_SwapNodesinPairs.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q30_SubstringwithConcatenationofAllWords.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q31_NextPermutation.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q33_SearchinRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q63_UniquePathsII.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_OPENCHAT.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_FAILRATE.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_MUZIMUKBANG.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM5.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM2.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM1.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM3.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q79_WordSearch.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q65_ValidNumber.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q75_SortColor.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q804_UniqueMorseCodeWords.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/NAVER_Temp.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM6.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_LVL3_TENT.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q93_RestoreIPAddresses.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q97_InterleavingString.java" />
+        <option value="$PROJECT_DIR$/src/BAEKJOON/Q3190_BAM.java" />
+        <option value="$PROJECT_DIR$/src/BAEKJOON/Q10217_KCMTravel.java" />
+        <option value="$PROJECT_DIR$/src/CODETEST/NHN_Q1.java" />
+        <option value="$PROJECT_DIR$/src/CODETEST/NHN_Q2.java" />
+        <option value="$PROJECT_DIR$/src/CODETEST/NHN_Q3.java" />
+        <option value="$PROJECT_DIR$/src/LEETCODE/Q200_NumberOfIslands.java" />
+        <option value="$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_StringCompression.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="25" />
+    <option name="y" value="203" />
+    <option name="width" value="1415" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PGMR_KAKAO_StringCompression">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODETEST.Main" />
+      <module name="DailyCoding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CODETEST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NHNQ2_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODETEST.NHNQ2_Main" />
+      <module name="DailyCoding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CODETEST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PGMR_KAKAO_StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PGMR.PGMR_KAKAO_StringCompression" />
+      <module name="DailyCoding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PGMR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q10217_KCMTravel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BAEKJOON.Q10217_KCMTravel" />
+      <module name="DailyCoding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BAEKJOON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3190_BAM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BAEKJOON.Q3190_BAM" />
+      <module name="DailyCoding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BAEKJOON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PGMR_KAKAO_StringCompression" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NHNQ2_Main" />
+        <item itemvalue="Application.Q10217_KCMTravel" />
+        <item itemvalue="Application.Q3190_BAM" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a82e61bd-ccc4-4ba2-b344-5ce6865627f1" name="Default" comment="" />
+      <created>1563545063682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563545063682</updated>
+      <workItem from="1563545065145" duration="1650000" />
+      <workItem from="1563804503795" duration="153000" />
+      <workItem from="1563804703611" duration="13000" />
+      <workItem from="1563804756078" duration="1138000" />
+      <workItem from="1563889810948" duration="96000" />
+      <workItem from="1563975822371" duration="2370000" />
+      <workItem from="1564406450472" duration="1503000" />
+      <workItem from="1564664815889" duration="2389000" />
+      <workItem from="1564895791414" duration="2259000" />
+      <workItem from="1565700450225" duration="9221000" />
+      <workItem from="1567603163973" duration="1320000" />
+      <workItem from="1567774795651" duration="32404000" />
+      <workItem from="1568300092292" duration="817000" />
+      <workItem from="1569026431863" duration="3037000" />
+      <workItem from="1569059753025" duration="1421000" />
+      <workItem from="1569248430752" duration="14952000" />
+      <workItem from="1569675911969" duration="8932000" />
+      <workItem from="1570618013564" duration="126000" />
+      <workItem from="1572879762509" duration="1761000" />
+      <workItem from="1576161347022" duration="5852000" />
+    </task>
+    <task id="LOCAL-00001" summary="Solve leetcode #66">
+      <created>1563546106208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563546106208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Solve leetcode #78">
+      <created>1563804626677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563804626677</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Solve leetcode #83">
+      <created>1563889685869</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563889685869</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solve leetcode #5 need more study">
+      <created>1563978103154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563978103154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Solve leetcode #12">
+      <created>1564407861649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564407861649</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Solve leetcode #12 fixed main">
+      <created>1564407889981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564407889981</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Solve leetcode #24">
+      <created>1564672100760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564672100760</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Solve leetcode #30">
+      <created>1565709244236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565709244241</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Solve leetcode #33">
+      <created>1565850787468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565850787468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Solve leetcode #63">
+      <created>1567604454034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567604454034</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Solve leetcode #79">
+      <created>1568040718129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568040718129</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Solve leetcode #65">
+      <created>1568123482080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568123482081</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Solve leetcode #75">
+      <created>1568208992569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568208992569</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Solve kakao">
+      <created>1568300328423</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568300328423</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Solve leetcode #804">
+      <created>1568300474550</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568300474550</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Solve leetcode #93">
+      <created>1569249635790</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569249635792</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Solve leetcode #93">
+      <created>1569249652134</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569249652134</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Solve kakao">
+      <created>1569337005671</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569337005671</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Solve Backgjoon 3190">
+      <created>1569509405223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569509405223</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Solve PGMR KAKAO String Compression">
+      <created>1576166250345</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576166250345</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="91414000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="25" y="23" width="1415" height="877" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27166787" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2955414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.26496816" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32642487" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solve leetcode #66" />
+    <MESSAGE value="Solve leetcode #78" />
+    <MESSAGE value="Solve leetcode #83" />
+    <MESSAGE value="Solve leetcode #5 need more study" />
+    <MESSAGE value="Solve leetcode #12" />
+    <MESSAGE value="Solve leetcode #12 fixed main" />
+    <MESSAGE value="Solve leetcode #24" />
+    <MESSAGE value="Solve leetcode #30" />
+    <MESSAGE value="Solve leetcode #33" />
+    <MESSAGE value="Solve leetcode #63" />
+    <MESSAGE value="Solve leetcode #79" />
+    <MESSAGE value="Solve leetcode #65" />
+    <MESSAGE value="Solve leetcode #75" />
+    <MESSAGE value="Solve leetcode #804" />
+    <MESSAGE value="Solve leetcode #93" />
+    <MESSAGE value="Solve kakao" />
+    <MESSAGE value="Solve Backgjoon 3190" />
+    <MESSAGE value="Solve PGMR KAKAO String Compression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve PGMR KAKAO String Compression" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q38_CountandSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q28_ImplementstrStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q66_PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q70_ClimbingStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q83_RemoveDuplicatesfromSortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q5_LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q15_3Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q11_ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q12_IntegertoRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ClassSeatChecker/classcheckercore/classcheckercore.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q24_SwapNodesinPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q31_NextPermutation.java" />
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q33_SearchinRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q30_SubstringwithConcatenationofAllWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q63_UniquePathsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q62_UniquePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" selection-start-line="8" selection-start-column="12" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_OPENCHAT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_FAILRATE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_MUZIMUKBANG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/NAVER_Temp.java" />
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q79_WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q65_ValidNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q75_SortColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q804_UniqueMorseCodeWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_NUM6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_LVL3_TENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q93_RestoreIPAddresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q97_InterleavingString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q2606_Virus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q15685_DragonCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test_data/autoput.i01">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test_data (1)/autoput.i01">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test_data (1)/tomo.i01">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test_data (1)/zmija.i01">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test_data (1)/autoput.i02">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q1018_ChessPan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q1436_DirectorShom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q1726_Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+          <folding>
+            <element signature="e#23651#23652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q3190_BAM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BAEKJOON/Q10217_KCMTravel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CODETEST/NHN_Q1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CODETEST/NHN_Q2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CODETEST/NHN_Q3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEETCODE/Q200_NumberOfIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PGMR/PGMR_KAKAO_StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DailyCoding</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
