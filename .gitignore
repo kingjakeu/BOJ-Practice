@@ -1,0 +1,6 @@
+/java/.idea/
+/java/bin/
+*.DS_Store
+*.iml
+/python/.idea/
+/python/bin/
