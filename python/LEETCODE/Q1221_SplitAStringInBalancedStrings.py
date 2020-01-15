@@ -9,7 +9,8 @@ class Solution:
                     stack.append(s[i])
                 else:
                     stack.pop()
-                    if not stack: answer += 1
+                    if not stack:
+                        answer += 1
             else:
                 stack.append(s[i])
         return answer
