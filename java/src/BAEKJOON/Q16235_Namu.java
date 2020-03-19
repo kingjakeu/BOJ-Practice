@@ -1,7 +1,7 @@
 package BAEKJOON;
 
-import java.io.*;
-import java.util.*;
+        import java.io.*;
+        import java.util.*;
 
 public class Q16235_Namu {
     static int n;
