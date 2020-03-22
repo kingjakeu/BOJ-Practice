@@ -1,6 +1,7 @@
 package BAEKJOON.sort;
 
 import java.io.*;
+import java.util.Arrays;
 
 public class Q2751_Sort2 {
 
@@ -10,17 +11,19 @@ public class Q2751_Sort2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
 
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         array = new int[n];
         for (int i = 0; i < n; i++) {
-            array[i] = Integer.parseInt(br.readLine());
+            array[i] = (int)(Math.random()*250000);
+            bw.write(String.valueOf(array[i]));
         }
+        bw.newLine();
+        Arrays.sort(array);
 
-        sort(0, n-1);
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         for(int a : array){
             bw.write(String.valueOf(a));
-            bw.newLine();
         }
+        bw.newLine();
         bw.close();
     }
 
