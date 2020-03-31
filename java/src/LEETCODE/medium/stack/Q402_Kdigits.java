@@ -1,4 +1,4 @@
-package LEETCODE.medium;
+package LEETCODE.medium.stack;
 
 import java.math.BigInteger;
 import java.util.Deque;
